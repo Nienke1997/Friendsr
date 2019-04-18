@@ -23,7 +23,16 @@ public class MainActivity extends AppCompatActivity {
         String[] names = {"Arya", "Cersei", "Daenerys", "Jaime", "Jon", "Jorah", "Margaery",
                 "Melisandre", "Sansa", "Tyrion"};
         // create a list of the bios of the persons
-        String[] bio = {"", "", "", "", "", "", "", "", "", ""};
+        String[] bio = {"The youngest Stark girl and a wild, willful, but very intelligent child. ",
+                "Queen of the realm and wife of Robert Baratheon. She despises Robert (as well as most other people it seems), and she is cunning and extremely ambitious.",
+                "The Dothraki khaleesi (queen) and Targaryen princess. Mother of dragons.",
+                "Jaime is arrogant, short-tempered, and rash, but he’s also a gifted swordsman. He is widely mistrusted and called Kingslayer because he murdered the previous king.",
+                "Knows nothing.",
+                "An exiled knight who serves unofficially as Daenerys’s chief advisor.",
+                "Margaery Tyrell became Queen Consort through her marriage to Joffrey Baratheon, and later Tommen Baratheon.",
+                "Melisandre is a Red Priestess. After the Battle of Winterfell, she revives Jon Snow believing him to be The Prince That Was Promised.",
+                "The elder Stark daughter and a beautiful, but extremely naïve, young girl.",
+                "I drink and I know things."};
 
         int counter = 0;
         // for each name in the list of names, add to the arraylist friends with bio and image
